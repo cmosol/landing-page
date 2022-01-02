@@ -1,0 +1,136 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.top {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+   }
+
+.splash-image {
+    background-color: rgb(150, 150, 150);
+    color: #f9faf8;
+    height: 125px;
+    width: 250px;
+    flex-shrink: 0;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro h1 {
+    font-size: 27px;
+}
+
+.intro p { 
+    font-size: smaller;
+}
+
+h2 {
+    color: #f9faf8;;
+    font-size: smaller;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+    font-size: 8px;
+}
+
+
+
+
+
+
+.sign-up {
+    color: white;
+    background-color: #3882F6;
+}
+
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.message {
+    font-family: ;
+    color: #1f2937;
+}
+
+.signature {
+    margin-left: auto;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
