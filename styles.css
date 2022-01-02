@@ -4,7 +4,8 @@ body {
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 0;
+    margin-top: auto;
+    margin-bottom: 0;
     gap: 30px;
     justify-content: space-between;
 }
@@ -15,6 +16,8 @@ body {
     flex-direction: column;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 100px;
+    gap: 50px;
 }
 
 .header {
@@ -28,14 +31,21 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+    gap: 18px;
 }
 
 .intro {
     display: flex;
     flex-direction: column;
     color: #f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
    }
+
+.intro .sign-up{
+    flex-grow: 0;
+    border: none;
+    border-radius: 5px;
+}
 
 .splash-image {
     background-color: rgb(150, 150, 150);
@@ -47,19 +57,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .intro h1 {
     font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .intro p { 
-    font-size: smaller;
+    font-size: 10px;
 }
 
 h2 {
     color: #f9faf8;;
     font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul{
@@ -72,24 +86,46 @@ a {
     color: #f9faf8;
     text-decoration: none;
     font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
-
-
 
 .sign-up {
     color: white;
     background-color: #3882F6;
+    border-radius: 5px;
+    border: 1px solid #f9faf8;
+    width:85px;
 }
-
-
 
 .card-container {
     display: flex;
     justify-content: center;
     color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.card {
+    border: 2px solid #3882F6;
+    height:90px;
+    width: 90px;
+    border-radius: 8px;
 }
 
 .quote {
@@ -100,17 +136,19 @@ a {
     padding-right: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .message {
-    font-family: ;
     color: #1f2937;
+    font-style: italic;
 }
 
 .signature {
     margin-left: auto;
     font-weight: 800;
     color: #1f2937;
+    font-size: 15px;
 }
 
 .call-to-action {
@@ -119,11 +157,28 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    border-radius: 5px;
+    gap: 40px;
 }
 
 .signup-message {
     display: flex;
     flex-direction: column;
+    
+}
+
+.signup-message h3 {
+    font-size: 13px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.signup-message p{
+    font-size: 10px;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 .footer {
@@ -133,4 +188,6 @@ a {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
 }
